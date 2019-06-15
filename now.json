@@ -8,7 +8,13 @@
         },
         {
             "src": "bin/www",
-            "use": "@now/node"
+            "use": "@now/node",
+            "config": {
+                "includeFiles": [
+                    "templates/**",
+                    "views/**"
+                ]
+            }
         },
         {
             "src": "routes/**/*.js",
