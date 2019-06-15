@@ -7,7 +7,19 @@
             "use": "@now/static"
         },
         {
-            "src": "bin/www",
+            "src": "./bin/www",
+            "use": "@now/node"
+        },
+        {
+            "src": "./routes/**/*.js",
+            "use": "@now/node"
+        },
+        {
+            "src": "./public/images/**/*",
+            "use": "@now/static"
+        },
+        {
+            "src": "./public/javascripts/*.js",
             "use": "@now/node"
         },
         {
@@ -19,7 +31,7 @@
             "use": "@now/node"
         },
         {
-            "src": "*.css",
+            "src": "./public/stylesheets/*.css",
             "use": "@now/static"
         }
     ],
