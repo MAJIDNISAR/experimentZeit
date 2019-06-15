@@ -7,12 +7,20 @@
             "use": "@now/static"
         },
         {
-            "src": "www",
+            "src": "bin/www",
             "use": "@now/node"
         },
         {
             "src": "api/**/*.js",
             "use": "@now/node"
+        },
+        {
+            "src": "*.js",
+            "use": "@now/node"
+        },
+        {
+            "src": "*.css",
+            "use": "@now/static"
         }
     ],
     "routes": [
