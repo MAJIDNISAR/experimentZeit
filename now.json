@@ -3,11 +3,15 @@
     "name": "zeitExpressProject",
     "builds": [
         {
-            "src": "**/*",
+            "src": "*.html",
             "use": "@now/static"
         },
         {
-            "src": "www/api/**/*.js",
+            "src": "www",
+            "use": "@now/node"
+        },
+        {
+            "src": "api/**/*.js",
             "use": "@now/node"
         }
     ],
