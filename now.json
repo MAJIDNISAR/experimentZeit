@@ -34,11 +34,5 @@
             "src": "./public/stylesheets/*.css",
             "use": "@now/static"
         }
-    ],
-    "routes": [
-        {
-            "src": "/",
-            "dest": "/routes/index.js"
-        }
     ]
 }
