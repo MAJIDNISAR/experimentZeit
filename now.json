@@ -7,19 +7,19 @@
             "use": "@now/static"
         },
         {
-            "src": "./bin/www",
+            "src": "bin/www",
             "use": "@now/node"
         },
         {
-            "src": "./routes/**/*.js",
+            "src": "routes/**/*.js",
             "use": "@now/node"
         },
         {
-            "src": "./public/images/**/*",
+            "src": "public/images/**/*",
             "use": "@now/static"
         },
         {
-            "src": "./public/javascripts/*.js",
+            "src": "public/javascripts/*.js",
             "use": "@now/node"
         },
         {
@@ -27,11 +27,7 @@
             "use": "@now/node"
         },
         {
-            "src": "*.js",
-            "use": "@now/node"
-        },
-        {
-            "src": "./public/stylesheets/*.css",
+            "src": "public/stylesheets/*.css",
             "use": "@now/static"
         }
     ]
