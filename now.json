@@ -7,7 +7,7 @@
             "use": "@now/static"
         },
         {
-            "src": "bin/www",
+            "src": "bin/**",
             "use": "@now/node",
             "config": {
                 "includeFiles": [
